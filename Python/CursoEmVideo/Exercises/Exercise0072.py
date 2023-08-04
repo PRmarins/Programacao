@@ -1,0 +1,16 @@
+tabela = ['PALMEIRAS','INTERNACIONAL', 'FLUMINENSE','CORINTIANS','FLAMENGO','CAP','CAM','FORTALEZA','SAO PAULO','AMG','BOTAFOGO','SANTOS','GOI','RBB','CFC','CUI','CEARA','ATLETICO GOIANIENSE','AVA','ECJ']
+print('¤'*80)
+print(' '*20, 'LISTA DE EQUIPES DO BRASILEIRÃO 2023')
+print('¤'*80)
+
+print(f'Lista de equipes completa: {tabela}')
+print(' ')
+print('Os 5 primeiro são: {}'.format(tabela[0:5]))
+print(' ')
+print('Os 4 últimos são: {}'.format(tabela[16:]))
+print(' ')
+print('Tabela em ordem alfabética: {}'.format(sorted(tabela)))
+print(' ')
+consultar = int(input('Qual posição gostaria de consultar? '))
+print(' ')
+print(f'O Time na posição {consultar} é o {tabela[consultar]}')

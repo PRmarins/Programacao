@@ -1,0 +1,6 @@
+numeros = str(input('')) .split()
+numero1 = int(numeros[0])
+numero2 = int(numeros[1])
+numero3 = int(numeros[2])
+numero4 = int(numeros[3])
+print('{}'.format(numero1 + numero2 + numero3 + numero4))
