@@ -1,11 +1,6 @@
-n = int(input())
+dados = [1,4,2,6]
 
-n_New = bin(n)
+#print(len(dados))
 
-print(n_New)
-
-n2 = int(input())
-
-n2_New = bin (n)
-
-print(n2_New)
+for i in range (0,len(dados)):
+    print(dados[i])
