@@ -4,5 +4,17 @@
         "Java/AGT4.0/clase2",
         "Java/AGT4.0/Clase1",
         "Java/Exercises"
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Python",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": [
+        "Python"
     ]
 }

@@ -20,4 +20,4 @@ for c in range (0,5):
                 lista.insert(posicao,numero)
                 break
             posicao += 1
-print(f"{lista}")     
+print(f"{lista}")

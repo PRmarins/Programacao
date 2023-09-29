@@ -1,6 +1,6 @@
-dados = [1,4,2,6]
+list = [2,45,8,9,5,6,3]
 
-#print(len(dados))
+n_list = sorted(list)
 
-for i in range (0,len(dados)):
-    print(dados[i])
+for n in n_list:
+    print(n, end = " ")
