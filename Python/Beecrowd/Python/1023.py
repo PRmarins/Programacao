@@ -1,18 +1,12 @@
-N = 2
+N = 1
+moradores = list()
+consumo = list()
+
 while N != 0:
-
     N = int(input())
-
-    if N == 0:
-        break
-    r = 0
-
-    while r < N:
-        Qimoveis = input().split().strip()
-        Moradores = []
-        Consumo = []
-        Moradores.append = Qimoveis[0]
-        Consumo.append = Qimoveis[1]
-    
-    cidade1 = [[Moradores],[Consumo]]
-
+    for i in range (0,N):
+        dados = input().split()
+        for caracteres in dados:
+            moradores.append(dados[0])
+            consumo.append(dados[1])
+        
