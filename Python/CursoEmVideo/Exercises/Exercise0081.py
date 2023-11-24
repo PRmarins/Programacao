@@ -1,7 +1,7 @@
 lista = []
 
 for n in range (0,5):
-    lista.append(int(input(f"Digite um número: ")))
+    lista.append(int(input("Digite um número: ")))
     
 maior_numero = max(lista)
 menor_numero = min(lista)

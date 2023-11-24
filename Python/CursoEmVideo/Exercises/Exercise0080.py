@@ -1,6 +1,10 @@
 ########   ESSA FORMA SO FUNCIONA PARA QUANDO NAO TENHA NUMEROS IGUAIS #######
 
-lista_de_numeros = (int(input("Digite o primeiro número: ")),(int(input("Digite um segundo número: "))),(int(input("Digite um terceiro número: "))),(int(input("Digite o quarto número: "))),(int(input("Digite o quinto número: "))))
+lista_de_numeros = {(int(input("Digite o primeiro número: "))
+                    (int(input("Digite um segundo número: ")))
+                    (int(input("Digite um terceiro número: ")))
+                    (int(input("Digite o quarto número: ")))
+                    (int(input("Digite o quinto número: "))))}
 maior_numero = max(lista_de_numeros)
 menor_numero = min(lista_de_numeros)
 P_maximo = lista_de_numeros.index(maior_numero) + 1
