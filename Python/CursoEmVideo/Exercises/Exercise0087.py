@@ -1,7 +1,7 @@
 from time import sleep
 from sys import exit
-Nomes = list()
-Pesos = list()
+#Nomes = list()
+#Pesos = list()
 Pessoas_pesadas = list()
 Pessoas_leves = list()
 counter = 0
@@ -9,8 +9,10 @@ counter_error = 0
 sair = False
 
 while not sair:
-    Nomes.append(str(input("Nome: ")))
-    Pesos.append(float(input("Peso: ")))
+    Vnome = input("Nome: ")
+    vpeso = float(input("Peso: "))
+    #Nomes.append(Vnome)
+    #Pesos.append(vpeso)
     counter += 1
     sair = str(input("Deseja adicionar mais dados? ")).strip()
     if sair.lower() in ['n','não','nao']:
@@ -35,19 +37,25 @@ while not sair:
                 print("Encerrando programa...")
                 sleep(3) 
                 exit()
-    if len(Pesos) == 0:
-         Pessoas_pesadas.append([Nomes,Pesos])
-         Pessoas_leves.append([Nomes,Pesos])
+    if counter == 1:
+         Pessoas_pesadas.append([[Vnome],[vpeso]])
+         Pessoas_leves.append([[Vnome],[vpeso]])
     else:
-        if Nomes not in Pessoas_leves:
+        if Vnome not in Pessoas_leves:
             for i in Pessoas_leves:
-                for ii in i:
-                    if ii >= Pesos:
-                        Pessoas_leves.append([Nomes,Pesos])
-        if Nomes not in Pessoas_pesadas:
+                for ii in i[1]:
+                    if ii >= vpeso:
+                        Pessoas_leves[0][0].append(Vnome)
+                        Pessoas_leves[0][1].append(vpeso)
+                        break
+
+        if Vnome not in Pessoas_pesadas:
             for i in Pessoas_pesadas:
-                if Pesos >= i:
-                     Pessoas_pesadas.append([Nomes,Pesos])
+                for ii in i[1]:
+                    if vpeso >= ii:
+                        Pessoas_pesadas[0][0].append(Vnome)
+                        Pessoas_pesadas[0][1].append(vpeso)
+                        break
 
 print("As pessoas mais pesadas são:")
 for i in Pessoas_pesadas:
