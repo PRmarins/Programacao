@@ -1,7 +1,5 @@
 from time import sleep
 from sys import exit
-#Nomes = list()
-#Pesos = list()
 Pessoas_pesadas = list()
 Pessoas_leves = list()
 counter = 0
@@ -11,8 +9,6 @@ sair = False
 while not sair:
     Vnome = input("Nome: ")
     vpeso = float(input("Peso: "))
-    #Nomes.append(Vnome)
-    #Pesos.append(vpeso)
     counter += 1
     sair = str(input("Deseja adicionar mais dados? ")).strip()
     if sair.lower() in ['n','não','nao']:
