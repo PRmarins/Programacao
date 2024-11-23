@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "arquivo1",
+            "request": "launch",
+            "mainClass": "arquivo1",
+            "projectName": "Programacao_1b62e7d9"
+        },
+        {
+            "type": "java",
             "name": "clase2Exercicio4",
             "request": "launch",
             "mainClass": "clase2Exercicio4",

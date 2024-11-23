@@ -1,6 +1,8 @@
 frase = ('curso em video python')
 print(frase[1:15:2])
 #vai comecar a frase no primeiro caractere e seguir até o 15 e pulando de 2 em 2
+print(frase[::-1])
+#Escreve a frase ao inverso
 print(frase.count('o',0,13))
 #contar na frase quantos O tem entre o caracter 0 e o 13
 print(frase.find('deo'))

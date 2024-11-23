@@ -1,9 +1,8 @@
 {
     "java.debug.settings.onBuildFailureProceed": true,
     "java.project.sourcePaths": [
-        "Java/AGT4.0/clase2",
-        "Java/AGT4.0/Clase1",
-        "Java/Exercises"
+        "Java/Exercises",
+        "Java/Curso_lucas"
     ],
     "python.testing.unittestArgs": [
         "-v",
@@ -16,5 +15,6 @@
     "python.testing.unittestEnabled": false,
     "python.testing.pytestArgs": [
         "Python"
-    ]
+    ],
+    "CodeGPT.apiKey": "OpenAI"
 }
