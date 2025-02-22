@@ -1,5 +1,8 @@
 #TAG: DICIONARIO , TUPLA
 
+# Dicionarios não aceitam valores duplicados, ordenados (a partir da versao Python 3.7, antes disso eram desordenados) 
+# e com valores alteraveis.
+
 dicionario = {'jan': 100, 'fev': 200, 'mar': 300, 'abr': 400}
 
 print(dicionario.keys())
