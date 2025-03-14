@@ -10,3 +10,15 @@ A[5] = 100
 
 for i in range (0, len(A)):
     print(A[i])
+
+"""	
+Outra forma de escrever os valores:
+
+print(*A, sep=", ")
+
+ou
+
+for i in A:
+    print(i)
+    
+"""	
