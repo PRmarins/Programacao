@@ -18,4 +18,4 @@ elif len(par_lista) > 0:
     print(len(par_lista))
 
 else:
-    exit()
+    exit() 
