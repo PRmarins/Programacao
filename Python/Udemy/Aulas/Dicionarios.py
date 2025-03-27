@@ -33,3 +33,9 @@ print(max(dicionario.values()))
 print(min(dicionario.values()))
 print(sum(dicionario.values()))
 print(len(dicionario.values()))
+
+# Para escrever o calor da lista, voce usa o get, porem associamos um valor padrao quando colocamos uma virgula
+# apos o valor que queremos buscar, caso ele nao exista.
+
+print(dicionario.get('diz', 'Valor não existe')) # assim o caso o valor nao exita, sera exhibido a mensagem "valor nao existe"
+print(dicionario.get('jan', 'Valor não existe')) # assim o caso o valor exita, sera exhibido o valor
